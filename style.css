@@ -1,0 +1,35 @@
+/* Style the ToDo list */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Style the group header */
+.group {
+    background-color: #333;
+    color: white;
+    padding: 8px;
+}
+
+.item {
+    display: flex;
+}
+
+.new-item-input {
+    border: none;
+}
+
+.crossed-off {
+    text-decoration: line-through;
+  }
+  
+  .dragging {
+    position: absolute;
+  }
+  
